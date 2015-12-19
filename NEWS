@@ -1,0 +1,21 @@
+# CHANGES TO MTurkRGUI 0.1.4 #
+
+## SIGNIFICANT USER-VISIBLE CHANGES ##
+
+* Use environment variables rather than options() to store AWS credentials. (#1)
+
+# CHANGES TO MTurkRGUI 0.1.2 #
+
+## BUG FIXES ##
+
+* The `CreateQualificationTypes` dialog overwrote qualification tests rather than displaying them when stored and produced an XML error message when attempting to create the Qualification type. (h/t William Little)
+
+# CHANGES TO MTurkRGUI 0.1.2 #
+
+## BUG FIXES ##
+
+* The `SearchQualificationTypes` dialog now now has a `return.all` argument. (h/t William Little)
+
+# CHANGES TO MTurkRGUI 0.1.1 #
+
+* Initial release.
